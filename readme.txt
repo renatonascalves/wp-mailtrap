@@ -1,18 +1,18 @@
 === WP Mailtrap ===
 Author URI: http://ralv.es
-Plugin URI: https://github.com/espellcaste/wp-mailtrap
+Plugin URI: https://github.com/renatonascalves/wp-mailtrap
 Author: Renato Alves
-Tags: mailtrap, wpmail, testing
-Requires at least: 3.8
-Tested up to: 4.2.2
+Tags: mailtrap, mail, testing
+Requires at least: 4.7
+Tested up to: 4.9.1
 
-WP Mailtrap is a simple plugin to test emails in WordPress with the Mailtrap API. 
+WP Mailtrap is a simple plugin to test emails in WordPress with the Mailtrap API.
 
 The plugin was created to non-developers who wishes to test if wp_mail is working or to test newsletters or simple text email in WordPress with the simple Mailtrap API.
 
 == Description ==
 
-WP Mailtrap is a simple plugin to test emails in WordPress with the Mailtrap API. 
+WP Mailtrap is a simple plugin to test emails in WordPress with the Mailtrap API.
 
 The plugin was created to non-developers who wishes to test if wp_mail is working or to test newsletters or simple text email in WordPress with the simple Mailtrap API..
 
