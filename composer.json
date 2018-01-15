@@ -4,12 +4,8 @@
 	"homepage"   : "https://github.com/renatonascalves/wp-mailtrap",
 	"type"       : "wordpress-plugin",
 	"license"    : "GPL-2.0+",
-	"keywords": [
-		"mail",
-		"mailtrap",
-		"testing",
-	],
-	"support": {
+	"keywords"   : [ "mail", "mailtrap", "testing" ],
+	"support"    : {
 		"issues": "https://github.com/renatonascalves/wp-mailtrap/issues",
 		"source": "https://github.com/renatonascalves/wp-mailtrap"
 	},
@@ -25,6 +21,6 @@
 	    "files": [ "wp-mailtrap.php" ]
 	},
 	"require": {
-		"php": ">=5.3",
+		"php": ">=5.3"
 	}
 }
