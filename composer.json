@@ -1,23 +1,30 @@
 {
-	"name"       : "espellcaste/wp-mailtrap",
+	"name"       : "renatonascalves/wp-mailtrap",
 	"description": "WP Mailtrap is a simple plugin to test emails in WordPress with the Mailtrap API..",
-	"homepage"   : "https://github.com/espellcaste/wp-mailtrap/",
+	"homepage"   : "https://github.com/renatonascalves/wp-mailtrap",
 	"type"       : "wordpress-plugin",
+	"license"    : "GPL-2.0+",
 	"keywords": [
-		"wpmail",
+		"mail",
 		"mailtrap",
 		"testing",
 	],
-	"homepage": "https://github.com/espellcaste/wp-mailtrap/",
-	"license"    : "GPL-2.0+",
-	"authors"    : [
+	"support": {
+		"issues": "https://github.com/renatonascalves/wp-mailtrap/issues",
+		"source": "https://github.com/renatonascalves/wp-mailtrap"
+	},
+	"authors" : [
 		{
 			"name"    : "Renato Alves",
-			"homepage": "https://ralv.es/"
+			"homepage": "http://ralv.es/"
 		}
 	],
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"autoload": {
+	    "files": [ "wp-mailtrap.php" ]
+	},
 	"require": {
-		"composer/installers": "~1.0",
-		"php": ">=5.2.4"
+		"php": ">=5.3",
 	}
 }
