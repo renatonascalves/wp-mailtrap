@@ -21,6 +21,11 @@
 	    "files": [ "wp-mailtrap.php" ]
 	},
 	"require": {
-		"php": ">=5.3"
+		"php": ">=5.2"
+	},
+	"require-dev": {
+		"wp-coding-standards/wpcs": "*",
+		"wimg/php-compatibility": "*",
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.4.4"
 	}
 }
